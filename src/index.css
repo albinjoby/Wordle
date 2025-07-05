@@ -7,14 +7,14 @@
     @apply flex items-center justify-center
 }
 .tile{
-    @apply h-16 w-16 border border-black uppercase font-bold text-3xl flex items-center justify-center bg-white
+    @apply h-14 w-14 md:h-16 md:w-16 border border-black uppercase font-bold text-3xl flex items-center justify-center bg-white
 }
 .correct{
-    @apply h-16 w-16 border border-black uppercase font-bold text-3xl flex items-center justify-center bg-[#538D4E] text-white transition-colors
+    @apply bg-[#538D4E] text-white
 }
 .close{
-    @apply h-16 w-16 border border-black uppercase font-bold text-3xl flex items-center justify-center bg-[#B59F3B] text-white transition-colors
+    @apply bg-[#B59F3B] text-white
 }
 .incorrect{
-    @apply h-16 w-16 border border-black uppercase font-bold text-3xl flex items-center justify-center bg-[#3A3A3C] text-white transition-colors
+    @apply bg-[#3A3A3C] text-white
 }
