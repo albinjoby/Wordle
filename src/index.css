@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.flex-center{
+    @apply flex items-center justify-center
+}
 .tile{
     @apply h-16 w-16 border border-black uppercase font-bold text-3xl flex items-center justify-center bg-white
 }
